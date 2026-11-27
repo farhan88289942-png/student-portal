@@ -9,8 +9,6 @@ HTML, CSS and JavaScript.
 - HTML5
 - CSS3
 - JavaScript
-- Git
-- GitHub
 
 ## Project Files
 - index.html: Main webpage
@@ -23,4 +21,4 @@ HTML, CSS and JavaScript.
 3. Open index.html in a browser.
 
 ## Author
-Your Name
+Farhan Ali
