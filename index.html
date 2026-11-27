@@ -10,22 +10,51 @@
 <body>
 
     <div class="container">
-        <h1>Student Portal</h1>
 
-        <p>Welcome to our Student Portal!</p>
+        <header class="header">
+            <h1>Student Portal</h1>
+            <p>Welcome to your academic dashboard</p>
+        </header>
 
-        <div class="student-info">
-            <h2>Student Information</h2>
-            <p>Name: Your Name</p>
-            <p>Department: Computer Science</p>
-            <p>Semester: 5th Semester</p>
-        </div>
+        <main>
+            <section class="welcome-section">
+                <h2>Hello, Student!</h2>
+                <p>Manage your academic activities in one place.</p>
+            </section>
 
-        <button onclick="showMessage()">
-            Click Me
-        </button>
+            <section class="cards">
+                <div class="card">
+                    <h3>My Courses</h3>
+                    <p>View your enrolled courses.</p>
+                </div>
 
-        <p id="message"></p>
+                <div class="card">
+                    <h3>Assignments</h3>
+                    <p>Check your assignments.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Results</h3>
+                    <p>View your academic results.</p>
+                </div>
+            </section>
+
+            <section class="action-section">
+                <h2>Student Activities</h2>
+                <p>Click the button below to test JavaScript.</p>
+
+                <button onclick="showMessage()">
+                    Click Here
+                </button>
+
+                <p id="message"></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Student Portal. All Rights Reserved.</p>
+        </footer>
+
     </div>
 
     <script src="script.js"></script>
